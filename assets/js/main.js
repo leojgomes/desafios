@@ -37,6 +37,18 @@ function challenge04() {
 
 // 05 - Crie um script que declara uma variável e verifique se o seu valor é um booleano. Se for, exiba a mensagem "É um booleano", caso contrário, exiba a mensagem "Não é um booleano".
 
+function challenge05(){
+    let r = prompt("Digite um valor para saber e é booleano ou nao")
+    if(r === "" || r === null){
+ alert("Insira um valor!")
+    }
+
+    else if (r === "true" ||  r === "false"  ) {
+        alert("É um booleano")
+    }else{
+        alert("Não é um booleano")
+    }
+}
 
 // 06 - Crie um script que declare duas variáveis e exiba o resultado da subtração entre elas.
 
